@@ -28,42 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            txtUserName = new TextBox();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(122, 66);
-            label1.Name = "label1";
-            label1.Size = new Size(62, 15);
-            label1.TabIndex = 0;
-            label1.Text = "UserName";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(139, 88);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "UserName";
             // 
             // txtUserName
             // 
-            txtUserName.Location = new Point(210, 62);
-            txtUserName.Name = "txtUserName";
-            txtUserName.Size = new Size(137, 23);
-            txtUserName.TabIndex = 1;
+            this.txtUserName.Location = new System.Drawing.Point(240, 83);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(156, 27);
+            this.txtUserName.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(139, 166);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Mật khẩu";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // txtmatkhau
+            // 
+            this.txtmatkhau.Location = new System.Drawing.Point(240, 163);
+            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtmatkhau.Name = "txtmatkhau";
+            this.txtmatkhau.Size = new System.Drawing.Size(156, 27);
+            this.txtmatkhau.TabIndex = 3;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(txtUserName);
-            Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(914, 600);
+            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
         private Label label1;
         private TextBox txtUserName;
+        private Label label2;
+        private TextBox txtmatkhau;
     }
 }
