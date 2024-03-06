@@ -8,19 +8,19 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\HUTECH\\Nam4_Hk2\\CMP186. Cong vu va moi truong phat trien phan mem\\source\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1.csproj",
+      "projectUniqueName": "D:\\.NET core\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1.csproj",
       "projectName": "kiemtralan1",
-      "projectPath": "D:\\Study\\HUTECH\\Nam4_Hk2\\CMP186. Cong vu va moi truong phat trien phan mem\\source\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\HUTECH\\Nam4_Hk2\\CMP186. Cong vu va moi truong phat trien phan mem\\source\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1\\obj\\",
+      "projectPath": "D:\\.NET core\\kiemtralan1\\kiemtralan1\\kiemtralan1\\kiemtralan1.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\.NET core\\kiemtralan1\\kiemtralan1\\kiemtralan1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
